@@ -2,7 +2,7 @@
 
 **Tablero de control para constructoras que rentan u operan maquinaria pesada.** Responde en una sola vista lo que normalmente toma días de conciliar entre bitácoras, facturas de renta y vales de diésel: qué equipo está trabajando, cuánto está costando, por qué se detuvo y si está consumiendo el diésel que debería.
 
-![Centro de Mando](docs/img/pagina_centro_mando.png)
+![Centro de Mando](img/pagina_centro_mando.png)
 
 > Datos ficticios con fines de demostración. El modelo completo (`.pbip`) no se publica; este repositorio muestra el resultado y el enfoque.
 
@@ -31,18 +31,18 @@ Un modelo en Power BI que toma la bitácora diaria de horómetros y las cargas d
 
 <table>
 <tr>
-<td><img src="docs/img/pagina_utilizacion.png" alt="Utilización de equipos"></td>
-<td><img src="docs/img/pagina_rendimiento.png" alt="Rendimiento y consumo"></td>
+<td><img src="img/pagina_utilizacion.png" alt="Utilización de equipos"></td>
+<td><img src="img/pagina_rendimiento.png" alt="Rendimiento y consumo"></td>
 </tr>
 <tr>
-<td><img src="docs/img/pagina_inactividad.png" alt="Inactividad de equipos"></td>
-<td><img src="docs/img/pagina_costo.png" alt="Costo de equipos"></td>
+<td><img src="img/pagina_inactividad.png" alt="Inactividad de equipos"></td>
+<td><img src="img/pagina_costo.png" alt="Costo de equipos"></td>
 </tr>
 </table>
 
-![Semanario operativo](docs/img/pagina_semanario.png)
+![Semanario operativo](img/pagina_semanario.png)
 
-El reporte completo exportado está en [`docs/pdf/Reporte Maquinaria.pdf`](<docs/pdf/Reporte%20Maquinaria.pdf>).
+El reporte completo exportado está en [`pdf/Reporte Maquinaria.pdf`](<pdf/Reporte%20Maquinaria.pdf>).
 
 ---
 
@@ -133,13 +133,13 @@ IF ( ISBLANK ( umbral ) || umbral = 0, "",
 
 Resultado:
 
-![Matriz de cumplimiento](docs/img/matriz_cumplimiento.png)
+![Matriz de cumplimiento](img/matriz_cumplimiento.png)
 
 ## Modelo de datos
 
 Esquema estrella con dos tablas de hechos (bitácora diaria de equipos y movimientos de diésel) y catálogos de equipos, estatus, proyectos, propietarios y calendario.
 
-![Vista de modelo en Power BI](docs/img/modelo.png)
+![Vista de modelo en Power BI](img/modelo.png)
 
 ## Páginas del reporte
 
